@@ -77,6 +77,15 @@ View+MASShorthandAdditions.h
 
 #####  `View+MASShorthandAdditions.h`
 
+如果 `MAS_SHORTHAND`定义过，才能使用当前文件的功能
+
+```
+#ifdef MAS_SHORTHAND
+
+#endif
+
+```
+
 
 ```
 MAS_ATTR_FORWARD(top);
